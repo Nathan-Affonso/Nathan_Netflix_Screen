@@ -1,4 +1,4 @@
-import 'package:app_netflix/detalhes_screen.dart';
+import 'package:netflix_screen/detalhes_screen.dart';
 import 'package:flutter/material.dart';
 
 class NetflixScreen extends StatelessWidget {
@@ -34,7 +34,7 @@ class NetflixScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Banner
+            //Banner
             Stack(
               alignment: Alignment.bottomLeft,
               children: [
