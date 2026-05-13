@@ -46,7 +46,6 @@ class TelaGames extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-
           Container(
             width: double.infinity,
             height: 200,
@@ -99,7 +98,6 @@ class TelaGames extends StatelessWidget {
           ),
 
           const SizedBox(height: 12),
-
 
           Expanded(
             child: ListView.builder(
